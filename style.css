@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@font-face {
+  font-family: "Gridular";
+  src: url("./fonts/Gridular-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RMNeue";
+  src: url("./fonts/RMNeue-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RMMono";
+  src: url("./fonts/RMMono-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heroSection{
+    position: fixed;
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: -2;
+    pointer-events: none;
+}
+
+h1{
+    font-family: "RMNeue";
+    font-size: 10.5vw;
+    font-weight: 500;
+    line-height: 80%;
+    text-align: center;
+    margin-top: 4.5vw;
+    letter-spacing: -0.025vw;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+span{
+    font-family: "Gridular";
+}
+
+#menuBtn{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7vw;
+    padding: 0.7vw 1.5vw;
+    background-color: rgba(255, 255, 255, 0.745);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2vw;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    z-index: 10000;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "RMNeue-Regular";
+    color: white;
+    mix-blend-mode: difference;
+    z-index: 1000;
+    margin-top: 0.9vw;
+}
+
+nav div{
+    display: flex;
+}
+
+nav div p{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1vw;
+    padding: 0.8vw 2.8vw;
+    font-family: "RMMono";
+}
+
+#squareContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #fd5530;
+    pointer-events: none;
+}
+
+.menuContent{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 0 2vw;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #242424;
+    color: white;
+    z-index: -1;
+}
+
+.menuContent .content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18vw;
+}
+
+.menuContent h1{
+    color: #fd5530;
+    font-size: 5vw;
+}
+
+.menuContent .right-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.menuContent .right-col .nav-links{
+    display: flex;
+    gap: 1.8vw;
+}
+
+.menuContent .nav-links a{
+    display: flex;
+    font-family: "RMMono";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.2vw;
+}
+
+.menuContent .nav-links span{
+    position: relative;
+    font-family: "RMMono";
+    top: 0.3vw;
+}
+
+
+
