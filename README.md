@@ -7,7 +7,7 @@ Perfect for anyone exploring creative UI motion and GSAP-based micro-interaction
 
 🚀 Demo
 
-You can watch the demonstration here (link will be added shortly).
+You can watch the demonstration here:- https://youtu.be/sWxowfya5i8?si=RyuEVzzbAspHT3Ce
 
 🔧 Tech Used
 
